@@ -430,19 +430,20 @@ font-family: @font-stack; */
   font-family: 'Work Sans';
   color: white;
 }
-#wrapper .container .items .item .content .lowest {
-  margin: 0em;
+#wrapper .container .items .item .bottom {
+  border-top: 1px solid #eae9e9;
+}
+#wrapper .container .items .item .lowest {
+  margin: 2em;
   padding: 0em;
   /* flex: none; */
   /* flex-direction: column; */
   flex-wrap: nowrap;
 }
-#wrapper .container .items .item .bottom {
-  border-top: 1px solid #eae9e9;
-}
 #wrapper .container .items .lower {
   margin: 0em;
   padding: 0em;
+  justify-content: space-between;
   /* flex: none; */
   /* flex-direction: column; */
   flex-wrap: nowrap;
