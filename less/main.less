@@ -6,9 +6,7 @@
 @background-stacked: #f8f8f8;
 @font-stack: 'Work Sans';
 
-html {
-  height:  2400px;
-}
+
 body {
   display: flex;
   justify-content: center;
@@ -79,7 +77,7 @@ font-family: @font-stack; */
         }
         .content {
           display: block;
-          flex: 0 0 auto;
+          /* flex: none; */
           background: none;
           margin: 0em;
           margin-bottom: 2em;
@@ -118,6 +116,15 @@ font-family: @font-stack; */
             color: white;
 
           }
+                .lowest {
+        margin: 0em;
+        padding:  0em;
+        /* flex: none; */
+        /* flex-direction: column; */
+        flex-wrap: nowrap;
+        
+      }
+
         }
         .bottom {
           border-top: 1px solid #eae9e9;
@@ -126,12 +133,10 @@ font-family: @font-stack; */
       .lower {
         margin: 0em;
         padding:  0em;
-        flex-direction: row;
+        /* flex: none; */
+        /* flex-direction: column; */
         flex-wrap: nowrap;
-        > .content {
-          width: 100%;
-          
-        }
+
         
       }
       .seg {

@@ -323,9 +323,6 @@ template {
   display: none;
 }
 /*VARS*/
-html {
-  height: 2400px;
-}
 body {
   display: flex;
   justify-content: center;
@@ -394,7 +391,7 @@ font-family: @font-stack; */
 }
 #wrapper .container .items .item .content {
   display: block;
-  flex: 0 0 auto;
+  /* flex: none; */
   background: none;
   margin: 0em;
   margin-bottom: 2em;
@@ -433,17 +430,22 @@ font-family: @font-stack; */
   font-family: 'Work Sans';
   color: white;
 }
+#wrapper .container .items .item .content .lowest {
+  margin: 0em;
+  padding: 0em;
+  /* flex: none; */
+  /* flex-direction: column; */
+  flex-wrap: nowrap;
+}
 #wrapper .container .items .item .bottom {
   border-top: 1px solid #eae9e9;
 }
 #wrapper .container .items .lower {
   margin: 0em;
   padding: 0em;
-  flex-direction: row;
+  /* flex: none; */
+  /* flex-direction: column; */
   flex-wrap: nowrap;
-}
-#wrapper .container .items .lower > .content {
-  width: 100%;
 }
 #wrapper .container .items .seg {
   flex-direction: column;
